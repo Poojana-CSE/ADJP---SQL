@@ -1,0 +1,1 @@
+MariaDB [test]> create table student(regno int primary key,Sname char(25) not null,Fname char(25) not null,Stuyr int default='1',age int check(age between 19 and 30),gender check(gender('Male','Female','Others')),phno int unique);
